@@ -1,7 +1,10 @@
 const promptUser = () => {
 
-  
-inquirer.prompt ([
+const inquirer = require('inquirer');
+const fs = require('fs');
+
+inquirer
+.prompt ([
       {
         type: 'list',
         name: 'choices', 
@@ -21,6 +24,13 @@ inquirer.prompt ([
                   'View department budgets']
       }
     ])
+
+    .then (data=>{
+      const result = generateReadme (data);
+      fs.writeFileSync(".ReadME.md", result)
+  })
+
+
       .then((answers) => {
         const { choices } = answers; 
   
