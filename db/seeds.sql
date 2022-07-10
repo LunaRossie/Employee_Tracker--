@@ -7,14 +7,14 @@ VALUES
 
 INSERT INTO role (title, salary, department_id)
 VALUES
-('Administrator', 80000, 1),
-('Software Engineer', 120000, 1),
-('Controller', 10000, 2), 
-('Finanical Analyst', 150000, 2),
-('Marketing Coordindator', 70000, 3), 
-('Sales Manager', 90000, 3),
-('Project Manager', 100000, 4),
-('Director of Operations', 90000, 4);
+('Administrator', 90000, 1),
+('Software Engineer', 110000, 1),
+('Controller', 100000, 2), 
+('Financial Analyst', 120000, 2),
+('Marketing Coordindator', 75000, 3), 
+('Sales Manager', 85000, 3),
+('Project Manager', 95000, 4),
+('Director of Operations', 110000, 4);
 
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
