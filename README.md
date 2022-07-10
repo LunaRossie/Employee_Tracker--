@@ -26,3 +26,7 @@ The project is licensed under MIT
 Questions
 
 If you have any questions about the project, please feel free to contact me at TerminalBash2022@outlook.com. 
+
+Link
+
+https://github.com/LunaRossie/Employee_Tracker--
